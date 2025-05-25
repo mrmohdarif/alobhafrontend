@@ -101,7 +101,7 @@ function Login() {
           style={styles.input}
           required
         />
-        <p>Test Email:dev.mohdarif@gmail.com</p>
+
         <input
           type="password"
           placeholder="Password"
@@ -110,7 +110,7 @@ function Login() {
           style={styles.input}
           required
         />
-       <p>Password:123456</p>
+
         {error && <p style={styles.error}>{error}</p>}
 
         <button

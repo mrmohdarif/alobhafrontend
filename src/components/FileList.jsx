@@ -6,23 +6,7 @@ function FileList({ repo}) {
   const [files, setfiles] = React.useState([]);
     const fileInputRef = React.useRef(null);
   const [selectedFile, setSelectedFile] = React.useState(null);
-  // const files = [
-  //   {
-  //     id: 'file1',
-  //     name: 'Project Proposal.docx',
-  //     versions: [
-  //       { version: 1, date: '2024-05-20' },
-  //       { version: 2, date: '2024-05-22' },
-  //     ],
-  //   },
-  //   {
-  //     id: 'file2',
-  //     name: 'Wireframe.png',
-  //     versions: [
-  //       { version: 1, date: '2024-05-18' },
-  //     ],
-  //   },
-  // ];
+  
 
   
 
